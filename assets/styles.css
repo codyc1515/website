@@ -2,8 +2,7 @@
   --bg: #f7f9fc;
   --text: #1f2937;
   --muted: #4b5563;
-  --brand: #0f766e;
-  --brand-dark: #115e59;
+  --brand: rgb(0, 184, 148);
   --card: #ffffff;
   --border: #d1d5db;
   --max: 980px;
@@ -21,10 +20,10 @@ body {
 
 a { color: var(--brand); }
 
-a:hover { color: var(--brand-dark); }
+a:hover { color: var(--brand); }
 
 .site-header {
-  background: linear-gradient(120deg, #134e4a, #0f766e);
+  background: var(--brand);
   color: #fff;
   padding: 2rem 1rem 1.25rem;
 }
@@ -47,7 +46,7 @@ a:hover { color: var(--brand-dark); }
 }
 
 .site-nav {
-  background: #0b3f3b;
+  background: var(--brand);
   border-bottom: 1px solid rgba(255,255,255,.2);
 }
 
@@ -94,7 +93,7 @@ h2 { margin-top: 1.8rem; }
 .icon-item {
   border: 1px solid var(--border);
   border-radius: 10px;
-  background: #f8fffe;
+  background: var(--brand);
   padding: .8rem;
 }
 
@@ -102,12 +101,12 @@ ul li + li,
 ol li + li { margin-top: .6rem; }
 
 .site-footer {
-  background: #0f172a;
+  background: var(--brand);
   color: #e2e8f0;
   padding: 1.5rem 1rem;
 }
 
-.site-footer a { color: #99f6e4; }
+.site-footer a { color: #fff; }
 
 .muted { color: var(--muted); }
 
