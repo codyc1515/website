@@ -3,9 +3,6 @@
   --text: #1f2937;
   --muted: #4b5563;
   --brand: rgb(0, 184, 148);
-  --brand-dark: rgb(0, 150, 120);
-  --brand-deep: rgb(0, 122, 99);
-  --brand-soft: rgb(216, 252, 246);
   --card: #ffffff;
   --border: rgb(164, 230, 219);
   --max: 980px;
@@ -23,10 +20,10 @@ body {
 
 a { color: var(--brand); }
 
-a:hover { color: var(--brand-dark); }
+a:hover { color: var(--brand); }
 
 .site-header {
-  background: linear-gradient(120deg, var(--brand-dark), var(--brand));
+  background: var(--brand);
   color: #fff;
   padding: 2rem 1rem 1.25rem;
 }
@@ -49,7 +46,7 @@ a:hover { color: var(--brand-dark); }
 }
 
 .site-nav {
-  background: var(--brand-deep);
+  background: var(--brand);
   border-bottom: 1px solid rgba(255,255,255,.2);
 }
 
@@ -96,7 +93,7 @@ h2 { margin-top: 1.8rem; }
 .icon-item {
   border: 1px solid var(--border);
   border-radius: 10px;
-  background: var(--brand-soft);
+  background: var(--brand);
   padding: .8rem;
 }
 
@@ -104,12 +101,12 @@ ul li + li,
 ol li + li { margin-top: .6rem; }
 
 .site-footer {
-  background: var(--brand-deep);
+  background: var(--brand);
   color: #e2e8f0;
   padding: 1.5rem 1rem;
 }
 
-.site-footer a { color: var(--brand-soft); }
+.site-footer a { color: #fff; }
 
 .muted { color: var(--muted); }
 
