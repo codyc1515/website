@@ -97,6 +97,9 @@ a:hover { color: var(--brand); }
 }
 
 .nav-dropdown {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
   position: absolute;
   left: 0;
   top: 100%;
