@@ -70,7 +70,7 @@ a:hover { color: var(--brand); }
 .site-nav a[aria-current="page"] { background: rgba(255,255,255,.2); }
 
 .main-content {
-  padding: 2rem 1rem 3rem;
+  padding: 2rem 0rem 3rem;
 }
 
 .page {
