@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+meta_title: Cody Cooper - Community Board Member for Hornby
 heading: Thank you, Hornby!
 permalink: /
 ---
