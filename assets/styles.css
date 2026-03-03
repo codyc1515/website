@@ -154,9 +154,6 @@ h2 { margin-top: 1.8rem; }
   padding: .8rem;
 }
 
-ul li + li,
-ol li + li { margin-top: .6rem; }
-
 .site-footer {
   background: var(--brand);
   color: #e2e8f0;
