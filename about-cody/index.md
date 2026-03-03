@@ -10,8 +10,6 @@ Back in July 2021, I found myself stepping into the world of local council advoc
 
 Our newly established subdivision was facing growing frustration over parking chaos following rapid construction and people moving into the area. With no yellow lines on bends, people parking in common areas, and the absence of clear space markings, things were inefficient at best and downright dangerous at worst.
 
-_Cody Cooper with arms stretched while residents look on at a residents meeting with Council staff._
-
 Residents were upset. Arguments were happening daily. And so, alongside then-Councillor Anne Galloway and a few passionate locals, we organised a community meeting at the Harvard Community Lounge. That’s me in the photo, arms wide, speaking to the group. The man in the pink shirt at the back is Barry Hayes, our traffic engineer at the time.
 
 This wasn’t your typical top-down consultation. Barry brought large engineering-grade drawings of our local streets and invited residents to literally draw on them – marking up trouble spots and offering their perspectives. He’d then explain what was feasible under the law and offer practical suggestions. It was real, responsive engagement.
