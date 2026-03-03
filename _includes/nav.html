@@ -1,7 +1,16 @@
 <nav class="site-nav" aria-label="Main menu">
   <ul>
     <li><a href="/" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a></li>
-    <li><a href="/priorities/" {% if page.url == '/priorities/' or page.url contains '/priorities/' %}aria-current="page"{% endif %}>Priorities</a></li>
+    <li class="has-dropdown">
+      <a href="/priorities/" {% if page.url == '/priorities/' or page.url contains '/priorities/' %}aria-current="page"{% endif %}>Priorities</a>
+      <ul class="nav-dropdown">
+        <li><a href="/priorities/housing-growth/">Housing &amp; Growth</a></li>
+        <li><a href="/priorities/transport-safety/">Transport &amp; Safety</a></li>
+        <li><a href="/priorities/parks-public-spaces/">Parks &amp; Public Spaces</a></li>
+        <li><a href="/priorities/community-wellbeing/">Community Wellbeing</a></li>
+        <li><a href="/priorities/council-accountability/">Council Accountability</a></li>
+      </ul>
+    </li>
     <li><a href="/about-cody/" {% if page.url == '/about-cody/' %}aria-current="page"{% endif %}>About Cody</a></li>
     <li><a href="/get-in-touch/" {% if page.url == '/get-in-touch/' %}aria-current="page"{% endif %}>Get in Touch</a></li>
   </ul>
