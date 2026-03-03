@@ -1,0 +1,117 @@
+:root {
+  --bg: #f7f9fc;
+  --text: #1f2937;
+  --muted: #4b5563;
+  --brand: #0f766e;
+  --brand-dark: #115e59;
+  --card: #ffffff;
+  --border: #d1d5db;
+  --max: 980px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+}
+
+a { color: var(--brand); }
+
+a:hover { color: var(--brand-dark); }
+
+.site-header {
+  background: linear-gradient(120deg, #134e4a, #0f766e);
+  color: #fff;
+  padding: 2rem 1rem 1.25rem;
+}
+
+.header-inner,
+.main-content,
+.site-footer-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.site-tagline {
+  margin: .5rem 0 0;
+  opacity: .95;
+}
+
+.site-nav {
+  background: #0b3f3b;
+  border-bottom: 1px solid rgba(255,255,255,.2);
+}
+
+.site-nav ul {
+  list-style: none;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: .8rem 1rem;
+  border-right: 1px solid rgba(255,255,255,.15);
+}
+
+.site-nav a[aria-current="page"] { background: rgba(255,255,255,.2); }
+
+.main-content {
+  padding: 2rem 1rem 3rem;
+}
+
+.page {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+h1 { line-height: 1.25; margin-top: 0; }
+h2 { margin-top: 1.8rem; }
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: .8rem;
+  margin: 1.2rem 0;
+}
+
+.icon-item {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: #f8fffe;
+  padding: .8rem;
+}
+
+ul li + li,
+ol li + li { margin-top: .6rem; }
+
+.site-footer {
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 1.5rem 1rem;
+}
+
+.site-footer a { color: #99f6e4; }
+
+.muted { color: var(--muted); }
+
+@media (max-width: 600px) {
+  .site-title { font-size: 1.45rem; }
+  .site-nav a { padding: .7rem .75rem; font-size: .95rem; }
+}
